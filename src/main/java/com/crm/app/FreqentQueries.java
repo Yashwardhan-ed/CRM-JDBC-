@@ -13,7 +13,7 @@ import com.crm.model.OpportunityByStage;
 import com.crm.model.UserOverdueTasks;
 import com.crm.model.UserPerformanceSummary;
 
-public class Reports {
+public class FreqentQueries {
 
     public static void main(String[] args) {
         FrequentQueriesDAO reportingDAO = new FrequentQueriesDAO();

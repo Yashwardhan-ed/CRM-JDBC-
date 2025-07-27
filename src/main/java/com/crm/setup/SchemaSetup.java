@@ -89,7 +89,8 @@ public class SchemaSetup {
             "OpportunityID    INT NOT NULL,"+
             "Description      TEXT,"+
             "ConversionDate   DATE,"+
-            "FOREIGN KEY (LeadID)        REFERENCES Leads(LeadID),"+
+            // FIX: Changed "Leads" to "Lead" to match the actual table name
+            "FOREIGN KEY (LeadID)        REFERENCES Lead(LeadID),"+
             "FOREIGN KEY (OpportunityID) REFERENCES Opportunity(OpportunityID),"+
             "INDEX idx_convert_date (ConversionDate)"+
         ")";
