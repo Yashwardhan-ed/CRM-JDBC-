@@ -19,4 +19,4 @@ buildNumber.properties
 *.log
 
 # Ignore local configuration files
-DatabaseConfig.javak
+DatabaseConfig.java
